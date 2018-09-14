@@ -1,0 +1,67 @@
+.caption {
+  padding: 20px;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  margin: auto;
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.button:hover {
+  width: 30px;
+  height: 30px;
+}
+
+.image {
+  display: block;
+  width: 70%;
+  height: 500px;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+.thumbnail-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.thumbnail {
+  width: 30%;
+  height: 200px;
+  margin: 10px;
+}
+
+.thumbnail:hover {
+  border: 5px solid cornflowerblue;
+  border-radius: 25px;
+}
